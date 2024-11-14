@@ -2,6 +2,7 @@ import React from 'react';
 import { Student } from '../../models/students.model';
 import'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Data from './dataInput';
 
 const Students: React.FC<{ students: Array<Student> }> = ({ students }) => {
   return (
@@ -34,6 +35,7 @@ const Students: React.FC<{ students: Array<Student> }> = ({ students }) => {
           </tbody>
         </table>
       ))};
+      <Data></Data>
 
     </>
 
